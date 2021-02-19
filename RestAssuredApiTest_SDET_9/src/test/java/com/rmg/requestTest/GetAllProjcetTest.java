@@ -2,6 +2,7 @@ package com.rmg.requestTest;
 
 import com.rmg.genericutility.BaseClass;
 import com.rmg.genericutility.IEndPoints;
+import com.rmg.genericutility.RequestUitity;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -32,7 +33,8 @@ public class GetAllProjcetTest extends BaseClass {
 			.assertThat().statusCode(200)
 		.and()
 		.log().all();
-		
+//		RequestUitity util=new RequestUitity();
+//		util.getJsonValueFromResponse(response, "projectName");
 		ArrayList<String> projectNames=response.jsonPath().get("projectName");
 		for(int i=0;i<projectNames.size();i++) {
 			String projectDB=dLib.executeQueryAndGetData("select * from project", 4, projectNames.get(i));
