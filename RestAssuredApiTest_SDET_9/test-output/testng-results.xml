@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3629" started-at="2021-02-17T18:32:43 IST" finished-at="2021-02-17T18:32:47 IST">
+  <suite name="Default suite" duration-ms="3604" started-at="2021-02-19T15:59:58 IST" finished-at="2021-02-19T16:00:01 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3629" started-at="2021-02-17T18:32:43 IST" finished-at="2021-02-17T18:32:47 IST">
-      <class name="com.rmg.projecttest.VerifySpecifiProjectAPI_DB_GUI">
-        <test-method status="PASS" signature="createProject()[pri:0, instance:com.rmg.projecttest.VerifySpecifiProjectAPI_DB_GUI@a7e666]" name="createProject" duration-ms="3564" started-at="2021-02-17T18:32:43 IST" finished-at="2021-02-17T18:32:47 IST">
+    <test name="Default test" duration-ms="3604" started-at="2021-02-19T15:59:58 IST" finished-at="2021-02-19T16:00:01 IST">
+      <class name="com.rmg.requestTest.GetAllProjcetTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.rmg.requestTest.GetAllProjcetTest@2d6eabae]" name="configBS" is-config="true" duration-ms="2507" started-at="2021-02-19T15:59:55 IST" finished-at="2021-02-19T15:59:58 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createProject -->
-      </class> <!-- com.rmg.projecttest.VerifySpecifiProjectAPI_DB_GUI -->
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="getAllprojectTest()[pri:0, instance:com.rmg.requestTest.GetAllProjcetTest@2d6eabae]" name="getAllprojectTest" duration-ms="3530" started-at="2021-02-19T15:59:58 IST" finished-at="2021-02-19T16:00:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllprojectTest -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.rmg.requestTest.GetAllProjcetTest@2d6eabae]" name="configAS" is-config="true" duration-ms="9" started-at="2021-02-19T16:00:01 IST" finished-at="2021-02-19T16:00:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.rmg.requestTest.GetAllProjcetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rmg.projecttest.VerifySpecifiProjectAPI_DB_GUI">
+      <class name="com.rmg.requestTest.GetAllProjcetTest">
         <methods>
-          <include name="createProject"/>
+          <include name="getAllprojectTest"/>
+          <include name="configBS"/>
+          <include name="configAS"/>
         </methods>
-      </class> <!-- com.rmg.projecttest.VerifySpecifiProjectAPI_DB_GUI -->
+      </class> <!-- com.rmg.requestTest.GetAllProjcetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
